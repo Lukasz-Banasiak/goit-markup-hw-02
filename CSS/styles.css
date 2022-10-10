@@ -24,7 +24,7 @@ body {
   font-style: medium;
   font-size: 16px;
   font-weight: 500;
-  line-height: 16.41px;
+  line-height: 26px;
   width: 51px;
   height: 16px;
 }
@@ -126,9 +126,25 @@ font-size: 14px;
 line-height: 24px;
 }
 
-.mail_tel {
+.mail_tel_footer {
 color: rgba(255, 255, 255, 0.6);
 font-size: 14px;
 line-height: 24px;
 text-decoration: none;
+}
+
+.mail_tel_top {
+color:#757575;
+font-size: 14px;
+line-height: 24px;
+text-decoration: none;
+font-weight: 500;
+}
+
+.mail_tel_top:hover {
+  color: #2196f3;
+}
+.name_of_project {
+
+  
 }
