@@ -3,6 +3,7 @@
   --black-txt: #212121;
   --button-pink-bgc-color: #f5f4fa;
   --blue-color: #2196f3; 
+  --footer-header-bgc-color: #2f303a;
 }
 
 body {
@@ -10,7 +11,7 @@ body {
   color: #212121;
 }
 
-.logo_Webstudio {
+.logo-webstudio {
   font-family: "Raleway";
   font-style: bold;
   font-size: 26px;
@@ -25,7 +26,7 @@ body {
   color: black;
 }
 
-.navigationLinks {
+.navigation-links {
   text-decoration: none;
   color: var(--black-txt);
   font-style: medium;
@@ -36,15 +37,15 @@ body {
   height: 16px;
 }
 
-.navigationLinks:hover {
+.navigation-links:hover {
   color: var(--blue-color);
 }
 
-.navigationLinks:focus {
+.navigation-links:focus {
   color: var(--blue-color);
 }
 
-.Button_orderService {
+.button-order-service {
   background-color: var(--blue-color);
   color: #ffffff;
   width: 200px;
@@ -54,11 +55,11 @@ body {
   font-style: bold;
   font-size: 16px;
 }
-.Button_orderService:hover {
+.button-order-service:hover {
   transform: scale(1.05);
 }
 
-.Portfolio_buttonFilter {
+.portfolio-button-filter {
   width: 93px;
   height: 38px;
   border: none;
@@ -66,18 +67,18 @@ body {
   background-color: var(--button-pink-bgc-color);
   border-radius: 4px;
 }
-.Portfolio_buttonFilter:hover {
+.portfolio-button-filter:hover {
   background-color: var(--blue-color);
   color: #ffffff;
 }
 
 
-.h1Section {
-  background-color: #2f303a;
+.h1-section {
+  background-color: var(--footer-header-bgc-color);
   text-align: center;
 }
 
-.h1Text {
+.h1-text {
   color: #ffffff;
   text-align: center;
   font-size: 44px;
@@ -85,7 +86,7 @@ body {
   line-height: 60px;
 }
 
-.atutyDescription {
+.atuty-description {
   font-style: normal;
   font-size: 14px;
   color: var(--grey-color);
@@ -115,19 +116,19 @@ font-style: ;
 text-align: center;
 line-height: 19px;
 }
- .jobName {
+ .job-name {
 color: var(--grey-color);
 font-weight: 400;
 }
 
 .footer {
-  background-color: #2f303a;
+  background-color: var(--footer-header-bgc-color);
 }
 .logo_studio_footer {
   color: rgba(255,255,255,1);
 }
 
-.footerAdress {
+.footer-adress {
 color:#ffffff;
 font-size: 14px;
 line-height: 24px;
@@ -159,7 +160,7 @@ line-height: 36px;
 font-weight: 700;
 }
 
-.projectDescription {
+.project-description {
 color: var(--grey-color);
 font-weight: 400;
 font-size: 16px;
