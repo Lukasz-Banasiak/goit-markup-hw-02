@@ -16,7 +16,7 @@ body {
   font-style: bold;
   font-size: 26px;
   font-weight: 700;
-  line-height: 31px;
+  line-height: 1.2rem;
   letter-spacing: 0, 03em;
   color: var(--blue-color);
   text-decoration: none;
@@ -32,7 +32,7 @@ body {
   font-style: medium;
   font-size: 16px;
   font-weight: 500;
-  line-height: 26px;
+  line-height: 1rem;
   width: 51px;
   height: 16px;
 }
@@ -54,6 +54,8 @@ body {
   border: none;
   font-style: bold;
   font-size: 16px;
+  line-height: 1.6rem;
+  cursor: pointer;
 }
 .button-order-service:hover {
   transform: scale(1.05);
@@ -66,6 +68,8 @@ body {
   color: var(--black-txt);
   background-color: var(--button-pink-bgc-color);
   border-radius: 4px;
+  line-height: 1.39rem;
+  cursor: pointer;
 }
 .portfolio-button-filter:hover {
   background-color: var(--blue-color);
@@ -83,7 +87,7 @@ body {
   text-align: center;
   font-size: 44px;
   font-weight: 900;
-  line-height: 60px;
+  line-height: 20rem;
 }
 
 .atuty-description {
@@ -91,7 +95,7 @@ body {
   font-size: 14px;
   color: var(--grey-color);
   text-align: left;
-  line-height: 24px;
+  line-height: 1.75rem;
   vertical-align: top;
 }
 
@@ -100,13 +104,12 @@ body {
   font-size: 14px;
   text-align: left;
   vertical-align: top;
-  line-height: 16px;
+  line-height: 1.15rem;
 }
 
 .headers {
   font-size: 36px;
   text-align: center;
-  line-height: 42px;
 }
 
 .people {
@@ -131,20 +134,20 @@ font-weight: 400;
 .footer-adress {
 color:#ffffff;
 font-size: 14px;
-line-height: 24px;
+line-height: 1.75rem;
 }
 
 .mail_tel_footer {
 color: rgba(255, 255, 255, 0.6);
 font-size: 14px;
-line-height: 24px;
+line-height: 1.75rem;
 text-decoration: none;
 }
 
 .mail_tel_top {
 color: var(--grey-color) ;
 font-size: 14px;
-line-height: 24px;
+line-height: 1.75rem;
 text-decoration: none;
 font-weight: 500;
 }
@@ -156,7 +159,7 @@ font-weight: 500;
 color: var(--black-txt);
 font-size: 18px;
 letter-spacing: 6%;
-line-height: 36px;
+line-height: 2rem;
 font-weight: 700;
 }
 
@@ -165,6 +168,6 @@ color: var(--grey-color);
 font-weight: 400;
 font-size: 16px;
 letter-spacing: 3%;
-line-height: 30px;
+line-height: 1.9rem;
 
 }
