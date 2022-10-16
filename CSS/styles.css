@@ -1,3 +1,10 @@
+:root {
+  --grey-color: #757575;
+  --black-txt: #212121;
+  --button-pink-bgc-color: #f5f4fa;
+  --blue-color: #2196f3; 
+}
+
 body {
   font-family: "Roboto", sans-serif;
   color: #212121;
@@ -10,7 +17,7 @@ body {
   font-weight: 700;
   line-height: 31px;
   letter-spacing: 0, 03em;
-  color: #2196f3;
+  color: var(--blue-color);
   text-decoration: none;
 }
 
@@ -20,7 +27,7 @@ body {
 
 .navigationLinks {
   text-decoration: none;
-  color: #212121;
+  color: var(--black-txt);
   font-style: medium;
   font-size: 16px;
   font-weight: 500;
@@ -30,15 +37,15 @@ body {
 }
 
 .navigationLinks:hover {
-  color: #2196f3;
+  color: var(--blue-color);
 }
 
 .navigationLinks:focus {
-  color: #2196f3;
+  color: var(--blue-color);
 }
 
 .Button_orderService {
-  background-color: #2196f3;
+  background-color: var(--blue-color);
   color: #ffffff;
   width: 200px;
   height: 50px;
@@ -55,12 +62,12 @@ body {
   width: 93px;
   height: 38px;
   border: none;
-  color: #212121;
-  background-color: #f5f4fa;
+  color: var(--black-txt);
+  background-color: var(--button-pink-bgc-color);
   border-radius: 4px;
 }
 .Portfolio_buttonFilter:hover {
-  background-color: #2196f3;
+  background-color: var(--blue-color);
   color: #ffffff;
 }
 
@@ -81,14 +88,14 @@ body {
 .atutyDescription {
   font-style: normal;
   font-size: 14px;
-  color: #757575;
+  color: var(--grey-color);
   text-align: left;
   line-height: 24px;
   vertical-align: top;
 }
 
 .atuty {
-  color: #212121;
+  color: var(--black-txt);
   font-size: 14px;
   text-align: left;
   vertical-align: top;
@@ -109,7 +116,7 @@ text-align: center;
 line-height: 19px;
 }
  .jobName {
-color: #757575;
+color: var(--grey-color);
 font-weight: 400;
 }
 
@@ -134,7 +141,7 @@ text-decoration: none;
 }
 
 .mail_tel_top {
-color:#757575;
+color: var(--grey-color) ;
 font-size: 14px;
 line-height: 24px;
 text-decoration: none;
@@ -142,10 +149,10 @@ font-weight: 500;
 }
 
 .mail_tel_top:hover {
-  color: #2196f3;
+  color: var(--blue-color);
 }
 .name_of_project {
-color: #212121;
+color: var(--black-txt);
 font-size: 18px;
 letter-spacing: 6%;
 line-height: 36px;
@@ -153,7 +160,7 @@ font-weight: 700;
 }
 
 .projectDescription {
-color:#757575;
+color: var(--grey-color);
 font-weight: 400;
 font-size: 16px;
 letter-spacing: 3%;
